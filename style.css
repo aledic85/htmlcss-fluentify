@@ -9,12 +9,8 @@
   margin: auto;
 }
 
-.bkb {
+nav {
   background-color: rgb(13, 50, 90);
-}
-
-.bkw {
-  background-color: white;
 }
 
 .nav-left {
@@ -124,4 +120,75 @@
 
 .navbar1 li:hover {
   cursor: pointer;
+}
+
+.bckgg {
+  background-color: #F9F9FE;
+}
+
+.row1 {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 40px;
+  padding: 40px 20px 30px 20px;
+}
+
+.row1 h4 {
+  font-size: 24px;
+}
+
+.row1 p {
+  color: #999;
+  font-size: 18px;
+}
+
+.row2 {
+  margin-top: 20px;
+}
+
+.row2::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.col1 {
+  float: left;
+  width: 33.333%;
+  text-align: center;
+}
+
+.img-cont1 {
+  height: 240px;
+}
+
+.img-cont1 img {
+  height: 160px;
+}
+
+hr {
+  width: 32px;
+  border-top: 2px solid;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 45%;
+  opacity: .3;
+}
+
+.text-cont {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.text-cont > h6 {
+  color: #7fb802;
+  font-size: 23px;
+  min-height: 60px;
+}
+
+.text-cont > p {
+  font-size: 15px;
+  line-height: 25px;
+  color: #999;
+  padding: 0 30px;
 }
