@@ -143,7 +143,7 @@ nav {
 }
 
 .row2 {
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .row2::after {
@@ -158,6 +158,12 @@ nav {
   text-align: center;
 }
 
+.col2 {
+  float: left;
+  width: 45%;
+  position: relative;
+}
+
 .img-cont1 {
   height: 240px;
 }
@@ -166,7 +172,7 @@ nav {
   height: 160px;
 }
 
-hr {
+.text-cont hr {
   width: 32px;
   border-top: 2px solid;
   margin-top: 20px;
@@ -191,4 +197,42 @@ hr {
   line-height: 25px;
   color: #999;
   padding: 0 30px;
+}
+
+.col2 > img {
+  width: 417px;
+  height: 354px;
+  position: absolute;
+  right: 0;
+}
+
+.col3 > h2 {
+  color: #4a4a4a;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 45px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.col3 > p {
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 15px;
+  line-height: 21px;
+  color: #999;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.col3 {
+  float: right;
+  width: 35%;
+  padding: 30px;
+  margin-right: 10%;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid rgba(0,0,0,.1);
 }
